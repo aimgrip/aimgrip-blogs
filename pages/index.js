@@ -1,5 +1,4 @@
 import Head from "next/head";
-import AboutSection from "../components/AboutSection"; // About section component
 
 export default function Home() {
   return (
