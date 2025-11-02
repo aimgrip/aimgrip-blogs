@@ -1,3 +1,4 @@
+import AboutSection from "../components/AboutSection";
 // pages/index.js
 import Head from "next/head";
 
