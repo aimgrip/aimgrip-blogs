@@ -1,8 +1,7 @@
-import AboutSection from "../components/AboutSection";
-// pages/index.js
 import Head from "next/head";
+import AboutSection from "../components/AboutSection"; // <- import it
 
-export default function About() {
+export default function Home() {
   return (
     <>
       <Head>
@@ -13,6 +12,7 @@ export default function About() {
         />
       </Head>
 
+      {/* Hero / Intro section */}
       <main className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-gray-100 flex items-center justify-center px-6 py-20">
         <div className="max-w-4xl text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
@@ -39,6 +39,10 @@ export default function About() {
           </a>
         </div>
       </main>
+
+      {/* AboutSection with image + detailed text */}
+      <AboutSection />
     </>
   );
 }
+
