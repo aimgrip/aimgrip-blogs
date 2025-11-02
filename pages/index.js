@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AboutSection from "../components/AboutSection"; // <- import it
+import AboutSection from "../components/AboutSection"; // About section component
 
 export default function Home() {
   return (
@@ -9,6 +9,12 @@ export default function Home() {
         <meta
           name="description"
           content="Learn more about AimGrip — a creative digital hub built to share powerful ideas and insights."
+        />
+
+        {/* Google Search Console Verification */}
+        <meta
+          name="google-site-verification"
+          content="google133f0d3eb47af87f"
         />
       </Head>
 
@@ -45,4 +51,3 @@ export default function Home() {
     </>
   );
 }
-
